@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.app-container {
+  background-color: #1e293b;
+  background-size: cover;
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #f0bb03;
+  font-family: Bree Serif;
+  font-size: 30px;
+  line-height: 0.3;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 100px;
+  }
+}
+.paragraph {
+  color: white;
+  font-family: Bree Serif;
+  font-size: 10px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .paragraph {
+    font-size: 40px;
+  }
+}
+.button-styling {
+  padding: 7px;
+  background-color: white;
+  border-radius: 10px;
+  font-family: Bree Serif;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  color: #1e293b;
+  font-weight: 600;
+}
+@media screen and (min-width: 768px) {
+  .button-styling {
+    padding: 14px;
+  }
+}
